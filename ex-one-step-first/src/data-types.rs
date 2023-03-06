@@ -19,6 +19,7 @@ fn main(){
     println!("Is 1 > 2 = {}", is_bigger);
 */
 
+/*
     // Char
     let thechar_uppercase = 'D';
     let thechar_lowercase = 'd';
@@ -34,6 +35,12 @@ fn main(){
     d = d
     smile = 😄  // smileni poddeshka qibtasho'radikan 
  */
+*/
 
+    // Strings
+    let davay = "rasmga ol rasmga ol";
+    let davay_official: &str = "olyappan olyappan";
+
+    println!("davay = {}, tezlash = {}",davay, davay_official);
 
 }
